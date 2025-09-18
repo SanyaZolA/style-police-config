@@ -7,4 +7,5 @@ function trainJedi(jediWarrion) {
 }
 
 trainJedi({ name: 'Yoda', designation: 'padawan' });
+
 console.log(man);
