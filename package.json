@@ -12,7 +12,7 @@
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx, html}": [
-      "eslint --cache --fix",
+      "eslint --cache --fix --max-warnings=100 --format=stylish",
       "prettier --write"
     ],
     "*.{json,css,md}": "prettier --write"
