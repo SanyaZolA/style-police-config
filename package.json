@@ -1,0 +1,41 @@
+{
+  "name": "style-police-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ],
+    "*.{json,css,md}": "prettier --write"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "eslint": "^9.35.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.6",
+    "prettier": "^3.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanyaZolA/style-police-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/SanyaZolA/style-police-config/issues"
+  },
+  "homepage": "https://github.com/SanyaZolA/style-police-config#readme"
+}
