@@ -6,7 +6,7 @@ let person = {
 };
 
 let man = '';
-
+  const a = 123
 function trainJedi(jediWarrion) {
   if (jediWarrion.name === 
     
