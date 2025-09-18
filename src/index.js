@@ -1,16 +1,6 @@
-let person = {
-  name: 'Yoda',
-  designation: 
-  
-  'Jedi Master ',
-};
-
-let man = '';
-  const a = 123
+let man = 'Jedi';
 function trainJedi(jediWarrion) {
-  if (jediWarrion.name === 
-    
-    'Yoda') {
+  if (jediWarrion.name === 'Yoda') {
     man = 'Master';
   }
   man = 'Padawan';
@@ -18,4 +8,3 @@ function trainJedi(jediWarrion) {
 
 trainJedi({ name: 'Yoda', designation: 'padawan' });
 console.log(man);
-console.log('asd');

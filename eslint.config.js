@@ -9,6 +9,8 @@ export default [
     },
     rules: {
       'prettier/prettier': 'error',
+      'no-unused-vars': 'warn',
+      'no-undef': 'warn',
     },
   },
 ];
